@@ -17,11 +17,26 @@
 }
 
 .main {
-  width:100%;
+  width:100%;  /*解答より：960px*/
   display:flex;
   justify-content:center;
   margin:0 auto;
 }
+
+/*解答より：右と左と真ん中の領域で指定　サイドの大きさが指定されているから
+.sidebar-left {
+  width:230px;
+  height:1400px;
+  background-color:palegreen;
+}
+
+.sidebar-right {
+  width:230px;
+  height:1400px;
+  background-color:palegreen;
+}
+
+*/
 
 .out-box {
   width:960px;
