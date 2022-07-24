@@ -5,7 +5,7 @@
 }
 
 .spring {
-  width:100%;
+  width:100%; /*解答より：記載なしでよい*/
   height:200px;
   background-image:url(caravan/img/box1.jpg);
   background-size:cover;
@@ -13,7 +13,7 @@
 }
 
 .summer {
-  width:100%;
+  width:100%; /*解答より：記載なしでよい*/
   height:200px;
   background-image:url(caravan/img/box2.jpg);
   background-size:cover;
@@ -21,7 +21,7 @@
 }
 
 .autumn {
-  width:100%;
+  width:100%; /*解答より：記載なしでよい*/
   height:200px;
   background-image:url(caravan/img/box3.jpg);
   background-size:cover;
@@ -29,7 +29,7 @@
 }
 
 .winter {
-  width:100%;
+  width:100%; /*解答より：記載なしでよい*/
   height:200px;
   background-image:url(caravan/img/box4.jpg);
   background-size:cover;
