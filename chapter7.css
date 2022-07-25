@@ -5,7 +5,7 @@
 }
 
 body {
-  color:gray;
+  color:gray; /*解答より；デフォルトのままでよかったようです*/
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 .header-text {
-  padding:20px 0 0 20px;
+  padding:20px 0 0 20px; /*解答より：padding 20px は全方位に適用でOK*/
 }
 
 main {
@@ -32,6 +32,8 @@ main {
 }
 
 .content {
+  /*解答より：content一つずつpadding-bottom、margin--bottom指定している
+  最後のcontentだけmargin-bottom指定せず、main-boxの余白のみの状態にしている*/
   padding:30px 0;
   border-bottom:1px solid #d3d3d3;
 }
