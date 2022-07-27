@@ -38,6 +38,8 @@
 .box-item:nth-child(7),
 .box-item:nth-child(8),
 .box-item:nth-child(9) {
+/*解答より：.box-item:nth-last-child(-n+3) の式で指定可能。
+　「後ろから何番目」という指定方法。マイナスになると適用されない*/
   margin-bottom:0;
 }
 
