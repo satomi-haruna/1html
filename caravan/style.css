@@ -228,7 +228,7 @@ footer {
 }
 
 @media screen and (max-width:425px) {
-  main {
+  main { /*解答より：header -> width:100%*/
     width:100%;
     display:block;
   }
@@ -237,8 +237,11 @@ footer {
   display:none;
 }
 
+/*nav-list -> width:100%;*/
 .nav-list-item {
-  display:block;
+  /*width:100%
+  margin:0 0 10px 0;*/
+  display:block; /*こちらの記載はなし*/
 }
 
 .main-visual-content {
@@ -247,44 +250,48 @@ footer {
 
 .blog {
   width:100%;
+  /*margin:0;*/
 }
 
 .blog-box {
-  padding-top:30px;
+  padding-top:30px; /*padding-topの変更なし
+  padding-left:2%;
+  padding-right:2%;*/
 }
 
 .blog-item {
-  padding:0;
+  padding:0; /*こちらの記載なし*/
 }
 
 .blog-image {
-  width:50vw;
-  height:45vh;
-  object-fit:cover;
+  width:50vw; /*width:49%;*/
+  height:45vh; /*こちらの記載なし*/
+  object-fit:cover; /*こちらの記載なし*/
 }
 
 .blog-text {
-  padding:20px 0 0 20px;
-  line-height:1.2;
+  /*width:49%;*/
+  padding:20px 0 0 20px; /*padding-top:5px;*/
+  line-height:1.2; /*こちら記載なし*/
 }
 
 .blog-text-heading {
-  padding-bottom:5px;
+  padding-bottom:5px; /*こちら記載なし*/
 }
 
-a {
+a { /*変更記載なし*/
   font-size:15px;
 }
 
-.category {
+.category { /*変更記載なし*/
   display:none;
 }
 
 .pagination {
-  padding-top:20px;
+  padding-top:20px; /*margin-bottom:50px;*/
 }
 
-.pagination p {
+.pagination p { /*こちら記載なし*/
   width:25px;
   height:25px;
   line-height:25px;
@@ -295,19 +302,22 @@ a {
 }
 
 .popular-heading {
-  padding-top:50px;
+  /*sidebar-contents {
+  padding-left:3%;
+  padding-right:3%;*/
+  padding-top:50px; /*こちら記載なし*/
 }
 
 .instagram-box:nth-child(odd) {
-  margin-right:4vw;
+  margin-right:4vw; /*margin-right:4%;*/
 }
 
 .instagram-box {
-  width:48vw;
-  height:48vh;
-  margin-bottom:4vh;
+  width:48vw; /*48%*/
+  height:48vh; /*こちら記載なし*/
+  margin-bottom:4vh; /*margin-right:4%;*/
 }
 
-footer {
+footer { /*こちら記載なし*/
   font-size:4vw;
 }
